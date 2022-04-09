@@ -1,0 +1,69 @@
+
+/* moiveClip */
+.movieClip_wrap{ position: relative; height: 498px; background-color: #000; border-top: 2px solid #8401ff; }
+.movieClip_wrap .contents {overflow: hidden;}
+.movieClip_wrap .video_wrap::before{content:''; width:100%; height:100%; position:absolute; left:0; top:90px; background-image:linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0.25) 10%, rgba(0, 0, 0, 0) 50%,rgba(0, 0, 0, 0.25) 80%, #000 100%); z-index:2} 
+.movieClip_wrap .video_wrap {position: relative; top: -90px;} 
+.movieClip_wrap .video_wrap .video_title{ position: absolute; left: 0; top: 220px; color: #fff; font-size: 36px; font-weight: bold; z-index: 2;}
+.movieClip_wrap .video_wrap .video_description { position: absolute; left: 0; top: 290px; color: #fff; line-height: 1.7em; font-size: 18px; font-weight: 500; z-index: 2;}
+
+.movieClip_wrap .video_wrap .controller{position: absolute; left: 0; top: 365px; z-index: 2; }
+.movieClip_wrap .video_wrap .controller a{font-size: 12px; color: #fff;}
+
+
+/* movieChart */
+.movieChart_wrap {height: 500px;}
+
+.movieChart_wrap  .movieChart_top { display: flex; width: 100%; align-items: center; padding: 50px 0 30px 0}
+
+.movieChart_wrap .movieChart_top h3{ font-size: 26px; font-weight: bold;}
+.movieChart_wrap .movieChart_top h4{ position: relative; margin-left: 36px; font-size: 18px; color: #797979}
+.movieChart_wrap .movieChart_top h4:before{ content:''; display: block; position: absolute; left: -17px; top: 20%; width: 1px; height: 20px; background-color: #C4C4C4;}
+
+.movieChart_wrap .movieChart_top a{ font-size: 12px; margin-left: auto;}
+
+
+/* cinemaSearch */
+.cinemaSearch { height: 400px; }
+
+.cinemaSearch .txt{ padding: 120px 0 0 0;}
+.cinemaSearch .txt h3, h4 {text-align: center;}
+.cinemaSearch .txt h3 {font-size: 36px; font-weight: bold}
+.cinemaSearch .txt h4 {font-size: 18px; font-weight: 500}
+
+.cinemaSerch .contents .dropdown{ width: 104;}
+
+
+
+    .swiper {
+      width: 100%;
+      height: 100%; 
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      width: 95%;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
